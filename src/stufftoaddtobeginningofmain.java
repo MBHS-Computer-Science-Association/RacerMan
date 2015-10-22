@@ -12,7 +12,7 @@ import javax.sound.sampled.UnsupportedAudioFileException;
 public class main {
 	public static void main(String args[])
 			throws UnsupportedAudioFileException, IOException, LineUnavailableException, InterruptedException {
-		File yourFile = new File("theme.wav");
+		File yourFile = new File("res/theme.wav");
 		AudioInputStream stream;
 		AudioFormat format;
 		DataLine.Info info;
