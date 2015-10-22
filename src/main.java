@@ -10,6 +10,7 @@ import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
 
 public class main {
+	public static ArrayList<cone> cones = new ArrayList<>();
 	public static void main(String args[])
 			throws UnsupportedAudioFileException, IOException, LineUnavailableException, InterruptedException {
 		File yourFile = new File("res/theme.wav");
